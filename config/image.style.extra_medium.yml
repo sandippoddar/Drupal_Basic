@@ -1,0 +1,15 @@
+uuid: 5b1953d2-041f-446a-8e6f-089cd60a15f7
+langcode: en
+status: true
+dependencies: {  }
+name: extra_medium
+label: 'Extra Medium'
+effects:
+  951abb16-d5b3-4945-bff9-d29876259762:
+    uuid: 951abb16-d5b3-4945-bff9-d29876259762
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 300
+      height: 200
+      anchor: center-center

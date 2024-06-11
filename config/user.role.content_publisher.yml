@@ -1,0 +1,34 @@
+uuid: a2c93e9c-2b8e-464c-9ee5-d451fe96b8b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article
+    - node.type.book_content
+    - node.type.custom_content
+    - node.type.news
+    - node.type.page
+  module:
+    - admin_toolbar_search
+    - node
+    - toolbar
+id: content_publisher
+label: 'Content Publisher'
+weight: 4
+is_admin: null
+permissions:
+  - 'access toolbar'
+  - 'create article content'
+  - 'create book_content content'
+  - 'create custom_content content'
+  - 'create news content'
+  - 'create page content'
+  - 'delete any article content'
+  - 'delete any book_content content'
+  - 'delete any custom_content content'
+  - 'delete any page content'
+  - 'edit any article content'
+  - 'edit any book_content content'
+  - 'edit any custom_content content'
+  - 'edit any page content'
+  - 'use admin toolbar search'

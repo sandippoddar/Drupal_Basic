@@ -1,0 +1,24 @@
+uuid: 9f5842df-51e6-4d0b-ae6b-e2885548569c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+id: news
+label: News
+code: |-
+  .views-view-grid .latest-news-grid .views-row {
+    gap: 30px; /* Adjust as needed */
+  }
+  body {
+  	background-color: red;
+  }
+media: all
+preprocess: false
+conditions:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /news-view
+contexts: {  }
+conditions_require_all: true
