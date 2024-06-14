@@ -1,0 +1,41 @@
+uuid: 44911671-caa2-43f7-869e-67eac5bd1872
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news_ct_block
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__news_ct_block_block_1
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:news_ct_block-block_1'
+settings:
+  id: 'views_block:news_ct_block-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous
+      authenticated: authenticated
+      content_editor: content_editor
+      administrator: administrator
+      content_publisher: content_publisher

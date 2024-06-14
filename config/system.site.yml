@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 6e5ffb52-fef1-495b-b7c4-bc62cf5c4d5e
+name: 'Drupal Training'
+mail: sandip.poddar@innoraft.com
+slogan: 'The best place to understand Drupal concepts'
+page:
+  403: /node/3
+  404: /node/2
+  front: /node/27
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: sandip.poddar@innoraft.com

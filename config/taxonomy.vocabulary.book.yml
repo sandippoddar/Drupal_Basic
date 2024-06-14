@@ -1,0 +1,8 @@
+uuid: f030cf7f-b4cf-4197-b056-7cefa9da5c46
+langcode: en
+status: true
+dependencies: {  }
+name: Book
+vid: book
+description: 'All Books details'
+weight: 0
